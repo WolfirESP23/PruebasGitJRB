@@ -25,7 +25,7 @@ while not salir:
  
     print ("1. Opcion 1 Suma de 2 números")
     print ("2. Opcion 2 Resta de 2 números")
-    print ("3. Opcion 3")
+    print ("3. Opcion 3 Multiplicación")
     print ("4. Salir")
      
     print ("Elige una opcion")
@@ -47,7 +47,12 @@ while not salir:
 
         print("La suma es: ",resta)
     elif opcion == 3:
-        print("Opcion 3")
+        print("Opcion 3 Multiplicación")
+        n1=float(input("Intro número uno: "))
+        n2=float(input("Intro numero dos: "))
+        mult=n1*n2
+
+        print("La suma es: ",mult)
     elif opcion == 4:
         salir = True
     else:
