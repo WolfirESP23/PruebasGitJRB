@@ -26,7 +26,9 @@ while not salir:
     print ("1. Opcion 1 Suma de 2 números")
     print ("2. Opcion 2 Resta de 2 números")
     print ("3. Opcion 3 Multiplicación")
-    print ("4. Salir")
+    print ("4. Opcion 4 División")
+    print ("4. Opcion 4 División")
+    print ("6. Salir")
      
     print ("Elige una opcion")
  
@@ -54,6 +56,13 @@ while not salir:
 
         print("La suma es: ",mult)
     elif opcion == 4:
+        print("Opcion 4 División")
+        n1=float(input("Intro número uno: "))
+        n2=float(input("Intro numero dos: "))
+        div=n1*n2
+
+        print("La suma es: ",div)
+    elif opcion == 6:
         salir = True
     else:
         print ("Introduce un numero entre 1 y 3")
